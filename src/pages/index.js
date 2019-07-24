@@ -22,8 +22,13 @@ const IndexPage = () => (
       <p>I am building this site to learn Gatsby</p>
 
       <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}></div>
-
       <Link to="/page-2/">Go to page 2</Link>
+
+      <footer>
+        © {new Date().getFullYear()}, Built with
+        {` `}
+        <a href="https://www.gatsbyjs.org">Gatsby</a>
+      </footer>
     </div>
   </Layout>
 )

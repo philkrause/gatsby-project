@@ -1,14 +1,20 @@
-import React from 'react'
-import Layout from '../components/layout'
+import React from "react"
+import Layout from "../components/layout"
 
-const Services = () => 
-            <Layout>
-        <div>
-            <h1>Our Services</h1>
-            <p>You’ve taken a lot of calls from vendors over the past couple of years. We have worked in mobile long enough to know the strengths and weaknesses of every vendor and every solution. Our perspective and experience with all the major players in mobile optimization can save you months of headaches and tens of thousands of dollars. We know our way around Websphere, ATG, Magento, Hybris, Demandware and many other ecommerce systems. Our knowledge of the risks and rewards of responsive design can bring you to the cutting edge in mobile and desktop. We want to use what we know to help you succeed.
-            </p>
-        </div>
-        </Layout>
-
+const Services = () => (
+  <Layout>
+    <div>
+      <h1>Our Services</h1>
+      <p>
+        The next generation of website architecture is here. Driven by
+        dissatisfaction about mobile site speeds, Google championed the
+        progressive web application as the way forward. Good mobile PWAs seem to
+        load content instantly, even on poor connections, cutting typical user
+        journeys by up to half. Now we are seeing responsive PWAs deliver
+        instant web experiences to desktop users too.
+      </p>
+    </div>
+  </Layout>
+)
 
 export default Services
