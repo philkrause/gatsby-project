@@ -17,7 +17,6 @@ const IndexPage = () => (
       }}
     >
       <img src={labs} />
-      <h1>Hi 64 Labs</h1>
       <p>Welcome to my first Gatsby site.</p>
       <p>I am building this site to learn Gatsby</p>
 
